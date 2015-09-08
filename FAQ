@@ -1,0 +1,3 @@
+cat /proc/cpuinfo # information about cpus
+lspci # information about network, CD ROM, SATA/IDE, etc.
+top # current threads, the same as Resource Management in Windows
