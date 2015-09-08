@@ -18,3 +18,4 @@ file kind:
 chgrp # change file's usergroup
 chown # change file's owner
 chmod # change file's authority
+last # for reading data file
