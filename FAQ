@@ -12,10 +12,13 @@ file kind:
   | d # directory
   | - # file
   | l # linkfile
-  | b # storable interface device
-  | c # serial interface device, such as mouse, keyboard
+  | b # block, storable interface device
+  | c # character, serial interface device, such as mouse, keyboard
+  | s # sockets
+  | p # pipe, FIFO
 /etc/sysconfig/i18n # system configuration
 chgrp # change file's usergroup
 chown # change file's owner
 chmod # change file's authority
 last # for reading data file
+uname -a # show linux kernel
