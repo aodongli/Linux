@@ -7,3 +7,14 @@ ps -auc # show programs running behind
 who # show online users
 netstat -a # network status
 fsck /dev/sda7 # check file system in this disk partition
+/etc/passwd /etc/shadow /etc/group # store username, password, and group information
+file kind:  
+  | d # directory
+  | - # file
+  | l # linkfile
+  | b # storable interface device
+  | c # serial interface device, such as mouse, keyboard
+/etc/sysconfig/i18n # system configuration
+chgrp # change file's usergroup
+chown # change file's owner
+chmod # change file's authority
