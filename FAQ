@@ -43,4 +43,9 @@ od -t # show binary files or data files
 ls -l --time=atime # access time, if accessed, such as, cat, etc.
 ls -l --time=ctime # status time, if properties or authorities changed, etc.
 ls -l --time=mtime # modification time, if contents changed, etc.
+umask # default authorities
+lsattr # show hiden attributes
+chattr # change hiden attributes
+file # show file type
+which # find commands
 
