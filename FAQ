@@ -22,3 +22,25 @@ chown # change file's owner
 chmod # change file's authority
 last # for reading data file
 uname -a # show linux kernel
+cd - # back to last working directory
+cd ~ # back to the user main directory
+cd ~account # back to the according account directory
+pwd -P # show working directory except link file
+mkdir -p # making directory recursively
+mkdir -m # making directory with a customerized authority
+rmdir # remove EMPTY directory
+PATH="%PATH":/sbin # new added user enabled to use administrator commands
+ls -a # all files including hiden files
+ls -l # files with authorities and properties
+ls -d # only directories
+cp -i # informed if destination already exists
+cp -r # copy recursively including its subdirectories
+cp -a # copy including authorities
+cp -d # copy link file's authorities, otherwise the source file's authorities
+rename # for large number of files' name
+tail -f # detecting file contents continuously until [crtl]-c
+od -t # show binary files or data files
+ls -l --time=atime # access time, if accessed, such as, cat, etc.
+ls -l --time=ctime # status time, if properties or authorities changed, etc.
+ls -l --time=mtime # modification time, if contents changed, etc.
+
