@@ -48,4 +48,6 @@ lsattr # show hiden attributes
 chattr # change hiden attributes
 file # show file type
 which # find commands
-
+df # disk information
+/dev/shm # virtual memory, which gains a higher I\O speed
+fdisk # disk operation
