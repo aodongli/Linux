@@ -52,3 +52,5 @@ df # disk information
 /dev/shm # virtual memory, which gains a higher I\O speed
 fdisk # disk operation
 type # command type, alias or shell builtin
+export # set variable as enviroment variable
+unset # cancel previous setting
