@@ -1,6 +1,6 @@
 cat /proc/cpuinfo # information about cpus
 lspci # information about network, CD ROM, SATA/IDE, etc.
-top # current threads, the same as Resource Management in Windows
+top # current processes/threads/cpu usage, the same as Resource Management in Windows
 sync # put data from memory into disk ESPECIALLY BEFORE shutdown
 shutdown, poweroff, init 0 # shutdown
 ps -auc # show programs running behind
