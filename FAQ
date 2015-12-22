@@ -54,3 +54,10 @@ fdisk # disk operation
 type # command type, alias or shell builtin
 export # set variable as enviroment variable
 unset # cancel previous setting
+redirections: ("1" represents stdout, "2" for stderr)
+  | 1>filename # Redirect stdout to file "filename."
+  | 1>>filename # Redirect and append stdout to file "filename."
+  | 2>filename # Redirect stderr to file "filename."
+  | 2>>filename # Redirect and append stderr to file "filename."
+  | &>filename # Redirect both stdout and stderr to file "filename."
+  | 2>&1 # Redirect stderr to stdout. >& is a mark of file descriptor.
